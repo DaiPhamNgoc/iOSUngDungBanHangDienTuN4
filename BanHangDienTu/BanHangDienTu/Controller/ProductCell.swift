@@ -9,4 +9,5 @@
 import UIKit
 
 class ProductCell: UITableViewCell {
+    @IBOutlet weak var lblBrand: UILabel!
 }

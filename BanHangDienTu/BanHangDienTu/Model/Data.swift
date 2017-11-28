@@ -11,9 +11,9 @@ class Data{
     static var brand = ["Apple", "Samsung", "OPPO","Huawei", "Lenovo"]
     
     static var images =
-                ["iPhoneX.jpeg", "note8.jpeg", "macbook2017.jpeg", "htcU11.jpg"]
+                ["iPhoneX.jpeg", "note8.jpeg", "macbook2017.jpeg", "lenovo.jpeg", ""]
                 
-    static var name = ["iPhone X", "Samsung Note 8", "Mac pro 2017", "HTC U11"]
+    static var name = ["iPhone X", "Samsung Note 8", "Mac pro 2017", "Lenovo"]
 }
 
 

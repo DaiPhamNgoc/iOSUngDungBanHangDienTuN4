@@ -8,17 +8,18 @@
 
 import UIKit
 class BrandController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    let cellids = ["HomeCellID","AppleCellID", "SamsungCellID", "NokiaCellID"]
+    let cellids = "BrandID"
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     //MARK: Các hàm của tableView
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return cellids.count
+        return Data.brand.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellids[indexPath.row], for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellids, for: indexPath) as! ProductCell
+        cell.lblBrand.text = Data.brand[indexPath.row]
         return cell
     }
     

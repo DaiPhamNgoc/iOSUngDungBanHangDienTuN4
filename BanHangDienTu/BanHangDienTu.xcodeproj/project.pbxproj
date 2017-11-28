@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		23069E4C1FC82119003A1072 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23069E4B1FC82119003A1072 /* Data.swift */; };
-		232E74CD1FC7D1B800E79B44 /* oppo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 232E74CC1FC7D19600E79B44 /* oppo.jpeg */; };
 		232FF6B31FCAF6F4000BBE3E /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232FF6B21FCAF6F4000BBE3E /* ProductCell.swift */; };
 		234D9B541FC8432B00649288 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234D9B531FC8432B00649288 /* CollectionView.swift */; };
 		234D9B5A1FC8650900649288 /* BrandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234D9B591FC8650900649288 /* BrandController.swift */; };
+		23564DC21FCBF281005C0E7A /* iPhone8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 23FF811C1FCBF08C00DF4318 /* iPhone8.jpeg */; };
+		23564DC31FCBF281005C0E7A /* iPhoneX.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 23FF811E1FCBF08C00DF4318 /* iPhoneX.jpeg */; };
+		23564DC41FCBF281005C0E7A /* macbook2017.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 23FF811D1FCBF08C00DF4318 /* macbook2017.jpeg */; };
+		2393F3D81FCD958D0015A428 /* lenovo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2393F3D71FCD95830015A428 /* lenovo.jpeg */; };
 		23ECBF111FC7B1C1002B7F8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECBF101FC7B1C1002B7F8E /* AppDelegate.swift */; };
 		23ECBF161FC7B1C1002B7F8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23ECBF141FC7B1C1002B7F8E /* Main.storyboard */; };
 		23ECBF181FC7B1C1002B7F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23ECBF171FC7B1C1002B7F8E /* Assets.xcassets */; };
@@ -19,6 +22,7 @@
 		23ECBF261FC7B1C1002B7F8E /* BanHangDienTuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECBF251FC7B1C1002B7F8E /* BanHangDienTuTests.swift */; };
 		23ECBF331FC7BA34002B7F8E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23ECBF321FC7BA34002B7F8E /* SWRevealViewController.m */; };
 		23ECBF351FC7BD92002B7F8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECBF341FC7BD92002B7F8E /* ViewController.swift */; };
+		23FAA18C1FCBFC3300C27DDB /* note8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 23FAA18B1FCBFC2400C27DDB /* note8.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,14 +37,10 @@
 
 /* Begin PBXFileReference section */
 		23069E4B1FC82119003A1072 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		232E74CC1FC7D19600E79B44 /* oppo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oppo.jpeg; sourceTree = "<group>"; };
-		232E74CE1FC7D7A200E79B44 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
-		232E74CF1FC7D7A200E79B44 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
-		232E74D01FC7D7A200E79B44 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
-		232E74D11FC7D7A200E79B44 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
 		232FF6B21FCAF6F4000BBE3E /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		234D9B531FC8432B00649288 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		234D9B591FC8650900649288 /* BrandController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandController.swift; sourceTree = "<group>"; };
+		2393F3D71FCD95830015A428 /* lenovo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lenovo.jpeg; sourceTree = "<group>"; };
 		23ECBF0D1FC7B1C1002B7F8E /* BanHangDienTu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BanHangDienTu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23ECBF101FC7B1C1002B7F8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23ECBF151FC7B1C1002B7F8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +54,10 @@
 		23ECBF311FC7BA33002B7F8E /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		23ECBF321FC7BA34002B7F8E /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		23ECBF341FC7BD92002B7F8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23FAA18B1FCBFC2400C27DDB /* note8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = note8.jpeg; sourceTree = "<group>"; };
+		23FF811C1FCBF08C00DF4318 /* iPhone8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhone8.jpeg; sourceTree = "<group>"; };
+		23FF811D1FCBF08C00DF4318 /* macbook2017.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macbook2017.jpeg; sourceTree = "<group>"; };
+		23FF811E1FCBF08C00DF4318 /* iPhoneX.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhoneX.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +81,11 @@
 		232E74CB1FC7D18C00E79B44 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				232E74D01FC7D7A200E79B44 /* 1.jpeg */,
-				232E74CE1FC7D7A200E79B44 /* 2.jpeg */,
-				232E74D11FC7D7A200E79B44 /* 3.jpeg */,
-				232E74CF1FC7D7A200E79B44 /* 4.jpeg */,
-				232E74CC1FC7D19600E79B44 /* oppo.jpeg */,
+				2393F3D71FCD95830015A428 /* lenovo.jpeg */,
+				23FAA18B1FCBFC2400C27DDB /* note8.jpeg */,
+				23FF811C1FCBF08C00DF4318 /* iPhone8.jpeg */,
+				23FF811E1FCBF08C00DF4318 /* iPhoneX.jpeg */,
+				23FF811D1FCBF08C00DF4318 /* macbook2017.jpeg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -242,7 +246,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				232E74CD1FC7D1B800E79B44 /* oppo.jpeg in Resources */,
+				2393F3D81FCD958D0015A428 /* lenovo.jpeg in Resources */,
+				23FAA18C1FCBFC3300C27DDB /* note8.jpeg in Resources */,
+				23564DC21FCBF281005C0E7A /* iPhone8.jpeg in Resources */,
+				23564DC31FCBF281005C0E7A /* iPhoneX.jpeg in Resources */,
+				23564DC41FCBF281005C0E7A /* macbook2017.jpeg in Resources */,
 				23ECBF1B1FC7B1C1002B7F8E /* LaunchScreen.storyboard in Resources */,
 				23ECBF181FC7B1C1002B7F8E /* Assets.xcassets in Resources */,
 				23ECBF161FC7B1C1002B7F8E /* Main.storyboard in Resources */,

@@ -7,6 +7,9 @@
 //
 
 import UIKit
-class CollectionView: UICollectionViewController {
+class CollectionView: UICollectionViewCell {
+    @IBOutlet weak var imageCollection: UIImageView!
+    @IBOutlet weak var lblCollection: UILabel!
+    
     
 }

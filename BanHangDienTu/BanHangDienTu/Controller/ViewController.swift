@@ -8,8 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIScrollViewDelegate {
-
+class ViewController: UIViewController, UIScrollViewDelegate, UICollectionViewDelegate, UICollectionViewDataSource {
+    
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var menuButton: UIBarButtonItem!
@@ -19,19 +19,22 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         sideMenus()
-
+        
         // Do any additional setup after loading the view.
         scrollView.delegate = self
         ScrollView()
-       
+        
+        collectionView.dataSource = self
+        collectionView.delegate = self
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-   
+    
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         pageControl.currentPage = Int(scrollView.contentOffset.x/CGFloat(375))
@@ -45,7 +48,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
             let xCoordinate = view.frame.midX + view.frame.width * CGFloat(image)
             contentWidth += view.frame.width
             scrollView.addSubview(imageView)
-            imageView.frame = CGRect(x: xCoordinate - 75, y:(view.frame.height / 4) - 150, width: 150, height: 150)
+            imageView.frame = CGRect(x: xCoordinate - 185, y:(view.frame.height / 4) - 150, width: 370, height: 150)
         }
         
         scrollView.contentSize = CGSize(width: contentWidth, height: view.frame.height / 3)
@@ -65,24 +68,35 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     }
     
     //MARK: Collection view
-//    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-//        return Data.name.count
-//    }
-//
-//    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-//        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CollectionViewCellID", for: indexPath)
-//
-//        return cell
-//    }
+    //    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    //        return Data.name.count
+    //    }
+    //
+    //    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    //        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CollectionViewCellID", for: indexPath) as! CollectionView
+    //        cell.imageCollection.image = UIImage(named: Data.images[indexPath.row])
+    //        cell.lblCollection.text = Data.name[indexPath.row]
+    //        return cell
+    //    }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return Data.name.count
     }
-    */
-
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CollectionViewID", for: indexPath) as! CollectionView
+        cell.imageCollection.image = UIImage(named: Data.images[indexPath.row])
+        cell.lblCollection.text = Data.name[indexPath.row]
+        return cell
+    }
+    /*
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
