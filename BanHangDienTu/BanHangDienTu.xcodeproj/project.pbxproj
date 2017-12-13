@@ -8,12 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		23069E4C1FC82119003A1072 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23069E4B1FC82119003A1072 /* Data.swift */; };
+		230FA0511FD187FB00DBA617 /* DBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230FA0501FD187FB00DBA617 /* DBUser.swift */; };
 		232FF6B31FCAF6F4000BBE3E /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232FF6B21FCAF6F4000BBE3E /* ProductCell.swift */; };
+		2347C33D1FD2FFBD002C92D5 /* ListProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347C33C1FD2FFBD002C92D5 /* ListProductTableViewController.swift */; };
 		234D9B541FC8432B00649288 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234D9B531FC8432B00649288 /* CollectionView.swift */; };
 		234D9B5A1FC8650900649288 /* BrandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234D9B591FC8650900649288 /* BrandController.swift */; };
+		234FFBA01FD39B0700208FA1 /* Order.png in Resources */ = {isa = PBXBuildFile; fileRef = 234FFB9F1FD39AAD00208FA1 /* Order.png */; };
+		234FFBA31FD39D4800208FA1 /* BuyNow.png in Resources */ = {isa = PBXBuildFile; fileRef = 234FFBA21FD39CDB00208FA1 /* BuyNow.png */; };
+		234FFBA51FD39DE800208FA1 /* DetailProController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234FFBA41FD39DE800208FA1 /* DetailProController.swift */; };
+		234FFBA91FD39E8300208FA1 /* UserLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234FFBA81FD39E8300208FA1 /* UserLoginController.swift */; };
+		234FFBAB1FD3A0F700208FA1 /* UserRegController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234FFBAA1FD3A0F700208FA1 /* UserRegController.swift */; };
 		23564DC21FCBF281005C0E7A /* iPhone8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 23FF811C1FCBF08C00DF4318 /* iPhone8.jpeg */; };
 		23564DC31FCBF281005C0E7A /* iPhoneX.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 23FF811E1FCBF08C00DF4318 /* iPhoneX.jpeg */; };
 		23564DC41FCBF281005C0E7A /* macbook2017.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 23FF811D1FCBF08C00DF4318 /* macbook2017.jpeg */; };
+		236BC3101FD2985B0077F3CA /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 230FA05C1FD18F8E00DBA617 /* iPad.png */; };
+		236BC3111FD2985B0077F3CA /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0551FD18D3800DBA617 /* iPhone.png */; };
+		236BC3121FD2985B0077F3CA /* laptopMsi.png in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0581FD18D3A00DBA617 /* laptopMsi.png */; };
+		236BC3131FD2985B0077F3CA /* lenovoMobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0561FD18D3800DBA617 /* lenovoMobile.png */; };
+		236BC3141FD2985B0077F3CA /* lenovoTablet.png in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0571FD18D3900DBA617 /* lenovoTablet.png */; };
+		236BC3151FD2985B0077F3CA /* macbook.png in Resources */ = {isa = PBXBuildFile; fileRef = 230FA05A1FD18D3A00DBA617 /* macbook.png */; };
+		236BC3161FD2985B0077F3CA /* samsungMobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0541FD18D3700DBA617 /* samsungMobile.png */; };
+		236BC3171FD2985B0077F3CA /* samsungTablet.png in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0591FD18D3A00DBA617 /* samsungTablet.png */; };
+		236BC3181FD298650077F3CA /* iPadMni.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0401FD17C5400DBA617 /* iPadMni.jpeg */; };
+		236BC3191FD298650077F3CA /* iPadPro.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA03F1FD17C5400DBA617 /* iPadPro.jpeg */; };
+		236BC31A1FD2987E0077F3CA /* MsiGV62.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA04A1FD180A300DBA617 /* MsiGV62.jpeg */; };
+		236BC31B1FD2987E0077F3CA /* MsiGP62M.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA04B1FD180A300DBA617 /* MsiGP62M.jpeg */; };
+		236BC31C1FD2987E0077F3CA /* lenovoPhab2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0381FD17AD400DBA617 /* lenovoPhab2.jpeg */; };
+		236BC31D1FD2987E0077F3CA /* lenovoTab3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0391FD17AD400DBA617 /* lenovoTab3.jpeg */; };
+		236BC31E1FD2987E0077F3CA /* lenovoK6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0411FD17D6C00DBA617 /* lenovoK6.jpeg */; };
+		236BC31F1FD2987E0077F3CA /* samsungA7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0481FD17E1F00DBA617 /* samsungA7.jpeg */; };
+		236BC3201FD2987E0077F3CA /* samsungS8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0471FD17E1F00DBA617 /* samsungS8.jpeg */; };
+		236BC3211FD2987E0077F3CA /* SamsungJ7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0461FD17DC900DBA617 /* SamsungJ7.jpeg */; };
+		236BC3221FD2987E0077F3CA /* samsungA.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0451FD17DB200DBA617 /* samsungA.jpeg */; };
+		236BC3231FD2987E0077F3CA /* samsungBook.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0441FD17DB100DBA617 /* samsungBook.jpeg */; };
+		236BC3241FD2987E0077F3CA /* iPhone6Plus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0341FD17AB100DBA617 /* iPhone6Plus.jpeg */; };
+		236BC3251FD2987E0077F3CA /* iPhone6s.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0321FD17AB000DBA617 /* iPhone6s.jpeg */; };
+		236BC3261FD2987E0077F3CA /* iPhone7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0331FD17AB100DBA617 /* iPhone7.jpeg */; };
+		236BC3271FD2987E0077F3CA /* iPhone7Plus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0351FD17AB200DBA617 /* iPhone7Plus.jpeg */; };
+		236BC3281FD2987E0077F3CA /* iPhone8Plus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA0361FD17AB200DBA617 /* iPhone8Plus.jpeg */; };
+		236BC3291FD2987E0077F3CA /* macbookAir2015.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA03E1FD17C3B00DBA617 /* macbookAir2015.jpeg */; };
+		236BC32A1FD2987E0077F3CA /* macbookAir2016.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA03B1FD17C3900DBA617 /* macbookAir2016.jpeg */; };
+		236BC32B1FD2987E0077F3CA /* macbookAir2017.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA03C1FD17C3A00DBA617 /* macbookAir2017.jpeg */; };
+		236BC32C1FD2987E0077F3CA /* macbookPro2015.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA03A1FD17C3900DBA617 /* macbookPro2015.jpeg */; };
+		236BC32D1FD2987E0077F3CA /* macbookPro2016.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 230FA03D1FD17C3A00DBA617 /* macbookPro2016.jpeg */; };
+		236BC32F1FD2A0570077F3CA /* CategoriesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BC32E1FD2A0570077F3CA /* CategoriesCollectionView.swift */; };
 		2393F3D81FCD958D0015A428 /* lenovo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2393F3D71FCD95830015A428 /* lenovo.jpeg */; };
 		23ECBF111FC7B1C1002B7F8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECBF101FC7B1C1002B7F8E /* AppDelegate.swift */; };
 		23ECBF161FC7B1C1002B7F8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23ECBF141FC7B1C1002B7F8E /* Main.storyboard */; };
@@ -22,6 +60,7 @@
 		23ECBF261FC7B1C1002B7F8E /* BanHangDienTuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECBF251FC7B1C1002B7F8E /* BanHangDienTuTests.swift */; };
 		23ECBF331FC7BA34002B7F8E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23ECBF321FC7BA34002B7F8E /* SWRevealViewController.m */; };
 		23ECBF351FC7BD92002B7F8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECBF341FC7BD92002B7F8E /* ViewController.swift */; };
+		23ECE7951FD259F300467321 /* CateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECE7941FD259F300467321 /* CateCollectionViewCell.swift */; };
 		23FAA18C1FCBFC3300C27DDB /* note8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 23FAA18B1FCBFC2400C27DDB /* note8.jpeg */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +76,47 @@
 
 /* Begin PBXFileReference section */
 		23069E4B1FC82119003A1072 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		230FA0321FD17AB000DBA617 /* iPhone6s.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhone6s.jpeg; sourceTree = "<group>"; };
+		230FA0331FD17AB100DBA617 /* iPhone7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhone7.jpeg; sourceTree = "<group>"; };
+		230FA0341FD17AB100DBA617 /* iPhone6Plus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhone6Plus.jpeg; sourceTree = "<group>"; };
+		230FA0351FD17AB200DBA617 /* iPhone7Plus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhone7Plus.jpeg; sourceTree = "<group>"; };
+		230FA0361FD17AB200DBA617 /* iPhone8Plus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhone8Plus.jpeg; sourceTree = "<group>"; };
+		230FA0381FD17AD400DBA617 /* lenovoPhab2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lenovoPhab2.jpeg; sourceTree = "<group>"; };
+		230FA0391FD17AD400DBA617 /* lenovoTab3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lenovoTab3.jpeg; sourceTree = "<group>"; };
+		230FA03A1FD17C3900DBA617 /* macbookPro2015.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macbookPro2015.jpeg; sourceTree = "<group>"; };
+		230FA03B1FD17C3900DBA617 /* macbookAir2016.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macbookAir2016.jpeg; sourceTree = "<group>"; };
+		230FA03C1FD17C3A00DBA617 /* macbookAir2017.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macbookAir2017.jpeg; sourceTree = "<group>"; };
+		230FA03D1FD17C3A00DBA617 /* macbookPro2016.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macbookPro2016.jpeg; sourceTree = "<group>"; };
+		230FA03E1FD17C3B00DBA617 /* macbookAir2015.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macbookAir2015.jpeg; sourceTree = "<group>"; };
+		230FA03F1FD17C5400DBA617 /* iPadPro.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPadPro.jpeg; sourceTree = "<group>"; };
+		230FA0401FD17C5400DBA617 /* iPadMni.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPadMni.jpeg; sourceTree = "<group>"; };
+		230FA0411FD17D6C00DBA617 /* lenovoK6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lenovoK6.jpeg; sourceTree = "<group>"; };
+		230FA0441FD17DB100DBA617 /* samsungBook.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samsungBook.jpeg; sourceTree = "<group>"; };
+		230FA0451FD17DB200DBA617 /* samsungA.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samsungA.jpeg; sourceTree = "<group>"; };
+		230FA0461FD17DC900DBA617 /* SamsungJ7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SamsungJ7.jpeg; sourceTree = "<group>"; };
+		230FA0471FD17E1F00DBA617 /* samsungS8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samsungS8.jpeg; sourceTree = "<group>"; };
+		230FA0481FD17E1F00DBA617 /* samsungA7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samsungA7.jpeg; sourceTree = "<group>"; };
+		230FA04A1FD180A300DBA617 /* MsiGV62.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MsiGV62.jpeg; sourceTree = "<group>"; };
+		230FA04B1FD180A300DBA617 /* MsiGP62M.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MsiGP62M.jpeg; sourceTree = "<group>"; };
+		230FA0501FD187FB00DBA617 /* DBUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBUser.swift; sourceTree = "<group>"; };
+		230FA0541FD18D3700DBA617 /* samsungMobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samsungMobile.png; sourceTree = "<group>"; };
+		230FA0551FD18D3800DBA617 /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
+		230FA0561FD18D3800DBA617 /* lenovoMobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lenovoMobile.png; sourceTree = "<group>"; };
+		230FA0571FD18D3900DBA617 /* lenovoTablet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lenovoTablet.png; sourceTree = "<group>"; };
+		230FA0581FD18D3A00DBA617 /* laptopMsi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laptopMsi.png; sourceTree = "<group>"; };
+		230FA0591FD18D3A00DBA617 /* samsungTablet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samsungTablet.png; sourceTree = "<group>"; };
+		230FA05A1FD18D3A00DBA617 /* macbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macbook.png; sourceTree = "<group>"; };
+		230FA05C1FD18F8E00DBA617 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = ../../../../../../../../../../Users/macmall/Desktop/iPad.png; sourceTree = "<group>"; };
 		232FF6B21FCAF6F4000BBE3E /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		2347C33C1FD2FFBD002C92D5 /* ListProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductTableViewController.swift; sourceTree = "<group>"; };
 		234D9B531FC8432B00649288 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		234D9B591FC8650900649288 /* BrandController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandController.swift; sourceTree = "<group>"; };
+		234FFB9F1FD39AAD00208FA1 /* Order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Order.png; path = ../../../../../../../../../../Users/macmall/Desktop/Order.png; sourceTree = "<group>"; };
+		234FFBA21FD39CDB00208FA1 /* BuyNow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BuyNow.png; path = ../../../../../../../../../../Users/macmall/Desktop/BuyNow.png; sourceTree = "<group>"; };
+		234FFBA41FD39DE800208FA1 /* DetailProController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProController.swift; sourceTree = "<group>"; };
+		234FFBA81FD39E8300208FA1 /* UserLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginController.swift; sourceTree = "<group>"; };
+		234FFBAA1FD3A0F700208FA1 /* UserRegController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegController.swift; sourceTree = "<group>"; };
+		236BC32E1FD2A0570077F3CA /* CategoriesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionView.swift; sourceTree = "<group>"; };
 		2393F3D71FCD95830015A428 /* lenovo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lenovo.jpeg; sourceTree = "<group>"; };
 		23ECBF0D1FC7B1C1002B7F8E /* BanHangDienTu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BanHangDienTu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23ECBF101FC7B1C1002B7F8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +131,7 @@
 		23ECBF311FC7BA33002B7F8E /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		23ECBF321FC7BA34002B7F8E /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		23ECBF341FC7BD92002B7F8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23ECE7941FD259F300467321 /* CateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CateCollectionViewCell.swift; sourceTree = "<group>"; };
 		23FAA18B1FCBFC2400C27DDB /* note8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = note8.jpeg; sourceTree = "<group>"; };
 		23FF811C1FCBF08C00DF4318 /* iPhone8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhone8.jpeg; sourceTree = "<group>"; };
 		23FF811D1FCBF08C00DF4318 /* macbook2017.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macbook2017.jpeg; sourceTree = "<group>"; };
@@ -78,14 +156,150 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		230FA0291FD1771600DBA617 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				230FA0301FD1798300DBA617 /* Ipad */,
+				230FA02F1FD1797A00DBA617 /* Iphone */,
+				230FA02E1FD1797100DBA617 /* Macbook */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		230FA02A1FD1774500DBA617 /* Samsung */ = {
+			isa = PBXGroup;
+			children = (
+				230FA0431FD17D7900DBA617 /* Mobile */,
+				230FA0421FD17D7100DBA617 /* Tablet */,
+			);
+			path = Samsung;
+			sourceTree = "<group>";
+		};
+		230FA02B1FD1775500DBA617 /* Lenovo */ = {
+			isa = PBXGroup;
+			children = (
+				230FA0371FD17AC200DBA617 /* Tablet */,
+				230FA0311FD179AE00DBA617 /* Mobile */,
+			);
+			path = Lenovo;
+			sourceTree = "<group>";
+		};
+		230FA02E1FD1797100DBA617 /* Macbook */ = {
+			isa = PBXGroup;
+			children = (
+				230FA03E1FD17C3B00DBA617 /* macbookAir2015.jpeg */,
+				230FA03B1FD17C3900DBA617 /* macbookAir2016.jpeg */,
+				230FA03C1FD17C3A00DBA617 /* macbookAir2017.jpeg */,
+				230FA03A1FD17C3900DBA617 /* macbookPro2015.jpeg */,
+				230FA03D1FD17C3A00DBA617 /* macbookPro2016.jpeg */,
+				23FF811D1FCBF08C00DF4318 /* macbook2017.jpeg */,
+			);
+			path = Macbook;
+			sourceTree = "<group>";
+		};
+		230FA02F1FD1797A00DBA617 /* Iphone */ = {
+			isa = PBXGroup;
+			children = (
+				230FA0341FD17AB100DBA617 /* iPhone6Plus.jpeg */,
+				230FA0321FD17AB000DBA617 /* iPhone6s.jpeg */,
+				230FA0331FD17AB100DBA617 /* iPhone7.jpeg */,
+				230FA0351FD17AB200DBA617 /* iPhone7Plus.jpeg */,
+				230FA0361FD17AB200DBA617 /* iPhone8Plus.jpeg */,
+				23FF811C1FCBF08C00DF4318 /* iPhone8.jpeg */,
+				23FF811E1FCBF08C00DF4318 /* iPhoneX.jpeg */,
+			);
+			path = Iphone;
+			sourceTree = "<group>";
+		};
+		230FA0301FD1798300DBA617 /* Ipad */ = {
+			isa = PBXGroup;
+			children = (
+				230FA0401FD17C5400DBA617 /* iPadMni.jpeg */,
+				230FA03F1FD17C5400DBA617 /* iPadPro.jpeg */,
+			);
+			path = Ipad;
+			sourceTree = "<group>";
+		};
+		230FA0311FD179AE00DBA617 /* Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				230FA0411FD17D6C00DBA617 /* lenovoK6.jpeg */,
+				2393F3D71FCD95830015A428 /* lenovo.jpeg */,
+			);
+			path = Mobile;
+			sourceTree = "<group>";
+		};
+		230FA0371FD17AC200DBA617 /* Tablet */ = {
+			isa = PBXGroup;
+			children = (
+				230FA0381FD17AD400DBA617 /* lenovoPhab2.jpeg */,
+				230FA0391FD17AD400DBA617 /* lenovoTab3.jpeg */,
+			);
+			path = Tablet;
+			sourceTree = "<group>";
+		};
+		230FA0421FD17D7100DBA617 /* Tablet */ = {
+			isa = PBXGroup;
+			children = (
+				230FA0451FD17DB200DBA617 /* samsungA.jpeg */,
+				230FA0441FD17DB100DBA617 /* samsungBook.jpeg */,
+			);
+			path = Tablet;
+			sourceTree = "<group>";
+		};
+		230FA0431FD17D7900DBA617 /* Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				230FA0481FD17E1F00DBA617 /* samsungA7.jpeg */,
+				230FA0471FD17E1F00DBA617 /* samsungS8.jpeg */,
+				230FA0461FD17DC900DBA617 /* SamsungJ7.jpeg */,
+				23FAA18B1FCBFC2400C27DDB /* note8.jpeg */,
+			);
+			path = Mobile;
+			sourceTree = "<group>";
+		};
+		230FA0491FD17F0200DBA617 /* Msi */ = {
+			isa = PBXGroup;
+			children = (
+				230FA0521FD18AD200DBA617 /* Laptop */,
+			);
+			path = Msi;
+			sourceTree = "<group>";
+		};
+		230FA0521FD18AD200DBA617 /* Laptop */ = {
+			isa = PBXGroup;
+			children = (
+				230FA04A1FD180A300DBA617 /* MsiGV62.jpeg */,
+				230FA04B1FD180A300DBA617 /* MsiGP62M.jpeg */,
+			);
+			path = Laptop;
+			sourceTree = "<group>";
+		};
+		230FA0531FD18B6D00DBA617 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				234FFBA21FD39CDB00208FA1 /* BuyNow.png */,
+				234FFB9F1FD39AAD00208FA1 /* Order.png */,
+				230FA05C1FD18F8E00DBA617 /* iPad.png */,
+				230FA0551FD18D3800DBA617 /* iPhone.png */,
+				230FA0581FD18D3A00DBA617 /* laptopMsi.png */,
+				230FA0561FD18D3800DBA617 /* lenovoMobile.png */,
+				230FA0571FD18D3900DBA617 /* lenovoTablet.png */,
+				230FA05A1FD18D3A00DBA617 /* macbook.png */,
+				230FA0541FD18D3700DBA617 /* samsungMobile.png */,
+				230FA0591FD18D3A00DBA617 /* samsungTablet.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
 		232E74CB1FC7D18C00E79B44 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				2393F3D71FCD95830015A428 /* lenovo.jpeg */,
-				23FAA18B1FCBFC2400C27DDB /* note8.jpeg */,
-				23FF811C1FCBF08C00DF4318 /* iPhone8.jpeg */,
-				23FF811E1FCBF08C00DF4318 /* iPhoneX.jpeg */,
-				23FF811D1FCBF08C00DF4318 /* macbook2017.jpeg */,
+				230FA0531FD18B6D00DBA617 /* Icon */,
+				230FA0491FD17F0200DBA617 /* Msi */,
+				230FA02B1FD1775500DBA617 /* Lenovo */,
+				230FA02A1FD1774500DBA617 /* Samsung */,
+				230FA0291FD1771600DBA617 /* Apple */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -94,6 +308,7 @@
 			isa = PBXGroup;
 			children = (
 				23069E4B1FC82119003A1072 /* Data.swift */,
+				230FA0501FD187FB00DBA617 /* DBUser.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -109,14 +324,36 @@
 		234D9B581FC8633C00649288 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				234FFBA71FD39E3D00208FA1 /* Product */,
+				234FFBA61FD39E3600208FA1 /* User */,
 				23ECBF311FC7BA33002B7F8E /* SWRevealViewController.h */,
 				23ECBF321FC7BA34002B7F8E /* SWRevealViewController.m */,
 				23ECBF341FC7BD92002B7F8E /* ViewController.swift */,
-				234D9B531FC8432B00649288 /* CollectionView.swift */,
-				234D9B591FC8650900649288 /* BrandController.swift */,
-				232FF6B21FCAF6F4000BBE3E /* ProductCell.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		234FFBA61FD39E3600208FA1 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				234FFBA81FD39E8300208FA1 /* UserLoginController.swift */,
+				234FFBAA1FD3A0F700208FA1 /* UserRegController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		234FFBA71FD39E3D00208FA1 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				234D9B591FC8650900649288 /* BrandController.swift */,
+				232FF6B21FCAF6F4000BBE3E /* ProductCell.swift */,
+				23ECE7941FD259F300467321 /* CateCollectionViewCell.swift */,
+				236BC32E1FD2A0570077F3CA /* CategoriesCollectionView.swift */,
+				2347C33C1FD2FFBD002C92D5 /* ListProductTableViewController.swift */,
+				234FFBA41FD39DE800208FA1 /* DetailProController.swift */,
+				234D9B531FC8432B00649288 /* CollectionView.swift */,
+			);
+			path = Product;
 			sourceTree = "<group>";
 		};
 		23ECBF041FC7B1C1002B7F8E = {
@@ -246,6 +483,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234FFBA31FD39D4800208FA1 /* BuyNow.png in Resources */,
+				234FFBA01FD39B0700208FA1 /* Order.png in Resources */,
+				236BC31A1FD2987E0077F3CA /* MsiGV62.jpeg in Resources */,
+				236BC31B1FD2987E0077F3CA /* MsiGP62M.jpeg in Resources */,
+				236BC31C1FD2987E0077F3CA /* lenovoPhab2.jpeg in Resources */,
+				236BC31D1FD2987E0077F3CA /* lenovoTab3.jpeg in Resources */,
+				236BC31E1FD2987E0077F3CA /* lenovoK6.jpeg in Resources */,
+				236BC31F1FD2987E0077F3CA /* samsungA7.jpeg in Resources */,
+				236BC3201FD2987E0077F3CA /* samsungS8.jpeg in Resources */,
+				236BC3211FD2987E0077F3CA /* SamsungJ7.jpeg in Resources */,
+				236BC3221FD2987E0077F3CA /* samsungA.jpeg in Resources */,
+				236BC3231FD2987E0077F3CA /* samsungBook.jpeg in Resources */,
+				236BC3241FD2987E0077F3CA /* iPhone6Plus.jpeg in Resources */,
+				236BC3251FD2987E0077F3CA /* iPhone6s.jpeg in Resources */,
+				236BC3261FD2987E0077F3CA /* iPhone7.jpeg in Resources */,
+				236BC3271FD2987E0077F3CA /* iPhone7Plus.jpeg in Resources */,
+				236BC3281FD2987E0077F3CA /* iPhone8Plus.jpeg in Resources */,
+				236BC3291FD2987E0077F3CA /* macbookAir2015.jpeg in Resources */,
+				236BC32A1FD2987E0077F3CA /* macbookAir2016.jpeg in Resources */,
+				236BC32B1FD2987E0077F3CA /* macbookAir2017.jpeg in Resources */,
+				236BC32C1FD2987E0077F3CA /* macbookPro2015.jpeg in Resources */,
+				236BC32D1FD2987E0077F3CA /* macbookPro2016.jpeg in Resources */,
+				236BC3181FD298650077F3CA /* iPadMni.jpeg in Resources */,
+				236BC3191FD298650077F3CA /* iPadPro.jpeg in Resources */,
+				236BC3101FD2985B0077F3CA /* iPad.png in Resources */,
+				236BC3111FD2985B0077F3CA /* iPhone.png in Resources */,
+				236BC3121FD2985B0077F3CA /* laptopMsi.png in Resources */,
+				236BC3131FD2985B0077F3CA /* lenovoMobile.png in Resources */,
+				236BC3141FD2985B0077F3CA /* lenovoTablet.png in Resources */,
+				236BC3151FD2985B0077F3CA /* macbook.png in Resources */,
+				236BC3161FD2985B0077F3CA /* samsungMobile.png in Resources */,
+				236BC3171FD2985B0077F3CA /* samsungTablet.png in Resources */,
 				2393F3D81FCD958D0015A428 /* lenovo.jpeg in Resources */,
 				23FAA18C1FCBFC3300C27DDB /* note8.jpeg in Resources */,
 				23564DC21FCBF281005C0E7A /* iPhone8.jpeg in Resources */,
@@ -271,11 +540,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234FFBA51FD39DE800208FA1 /* DetailProController.swift in Sources */,
 				23ECBF351FC7BD92002B7F8E /* ViewController.swift in Sources */,
 				234D9B541FC8432B00649288 /* CollectionView.swift in Sources */,
+				234FFBAB1FD3A0F700208FA1 /* UserRegController.swift in Sources */,
+				234FFBA91FD39E8300208FA1 /* UserLoginController.swift in Sources */,
 				23ECBF111FC7B1C1002B7F8E /* AppDelegate.swift in Sources */,
 				23ECBF331FC7BA34002B7F8E /* SWRevealViewController.m in Sources */,
+				23ECE7951FD259F300467321 /* CateCollectionViewCell.swift in Sources */,
+				230FA0511FD187FB00DBA617 /* DBUser.swift in Sources */,
+				236BC32F1FD2A0570077F3CA /* CategoriesCollectionView.swift in Sources */,
 				23069E4C1FC82119003A1072 /* Data.swift in Sources */,
+				2347C33D1FD2FFBD002C92D5 /* ListProductTableViewController.swift in Sources */,
 				232FF6B31FCAF6F4000BBE3E /* ProductCell.swift in Sources */,
 				234D9B5A1FC8650900649288 /* BrandController.swift in Sources */,
 			);

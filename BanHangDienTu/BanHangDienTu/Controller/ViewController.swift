@@ -27,6 +27,16 @@ class ViewController: UIViewController, UIScrollViewDelegate, UICollectionViewDe
         collectionView.dataSource = self
         collectionView.delegate = self
         
+        let docsPath = Bundle.main.resourcePath! + "/Resources"
+        let fileManager = FileManager.default
+        
+        do {
+            let docsArray = try fileManager.contentsOfDirectory(atPath: docsPath)
+            print("Day la:  ", docsArray)
+        } catch {
+            print(error)
+        }
+        
     }
     
     override func didReceiveMemoryWarning() {
